@@ -95,19 +95,19 @@ if dein#load_state(s:dein_dir)
   call dein#add('Shougo/unite.vim')
 
 
-  "call dein#add'Shougo/vimproc.vim'
-  ""if   = '''! has('kaoriya')'''
-  ""hook_post_update = '''
-  ""  if dein#util#_is_windows()
-  ""    let cmd = 'tools\\update-dll-mingw'
-  "" elseif dein#util#_is_cygwin()
-  ""    let cmd = 'make -f make_cygwin.mak'
-  ""  elseif executable('gmake')
-  ""    let cmd = 'gmake'
-  ""  else
-  ""    let cmd = 'make'
-  ""  endif
-  "" let g:dein#plugin.build = cmd
+  if   ! has('kaoriya')
+   call dein#add'Shougo/vimproc.vim
+    if dein#util#_is_windows()
+      let cmd = 'tools\\update-dll-mingw'
+    elseif dein#util#_is_cygwin()
+      let cmd = 'make -f make_cygwin.mak'
+    elseif executable('gmake')
+      let cmd = 'gmake'
+    else
+      let cmd = 'make'
+    endif
+   let g:dein#plugin.build = cmd
+  endif
   
   call dein#add('scrooloose/nerdtree')
   " コメントON/OFFを手軽に実行

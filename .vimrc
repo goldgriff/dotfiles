@@ -1,41 +1,41 @@
-"set encoding=utf-8 @•¶š‰»‚¯‚·‚é‚ñ‚ÅƒRƒƒ“ƒgƒAƒEƒg
+"set encoding=utf-8 ã€€æ–‡å­—åŒ–ã‘ã™ã‚‹ã‚“ã§ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆ
 scriptencoding utf-8
-set fileencoding=utf-8 " •Û‘¶‚Ì•¶šƒR[ƒh
-set fileencodings=ucs-boms,utf-8,euc-jp,cp932 " “Ç‚İ‚İ‚Ì•¶šƒR[ƒh‚Ì©“®”»•Ê. ¶‘¤‚ª—Dæ‚³‚ê‚é
-set fileformats=unix,dos,mac " ‰üsƒR[ƒh‚Ì©“®”»•Ê. ¶‘¤‚ª—Dæ‚³‚ê‚é
-set ambiwidth=double "  ‚â›•¶š‚ª•ö‚ê‚é–â‘è‚ğ‰ğŒˆ
-set expandtab " ƒ^ƒu“ü—Í‚ğ•¡”‚Ì‹ó”’“ü—Í‚É’u‚«Š·‚¦‚é
-set tabstop=4 " ‰æ–Êã‚Åƒ^ƒu•¶š‚ªè‚ß‚é•
-set softtabstop=4 " ˜A‘±‚µ‚½‹ó”’‚É‘Î‚µ‚Äƒ^ƒuƒL[‚âƒoƒbƒNƒXƒy[ƒXƒL[‚ÅƒJ[ƒ\ƒ‹‚ª“®‚­•
-set autoindent " ‰üs‚É‘O‚Ìs‚ÌƒCƒ“ƒfƒ“ƒg‚ğŒp‘±‚·‚é
-set smartindent " ‰üs‚É‘O‚Ìs‚Ì\•¶‚ğƒ`ƒFƒbƒN‚µŸ‚Ìs‚ÌƒCƒ“ƒfƒ“ƒg‚ğ‘Œ¸‚·‚é
-set shiftwidth=4 " smartindent‚Å‘Œ¸‚·‚é•
-set incsearch " ƒCƒ“ƒNƒŠƒƒ“ƒ^ƒ‹ƒT[ƒ`. ‚P•¶š“ü—Í–ˆ‚ÉŒŸõ‚ğs‚¤
-set ignorecase " ŒŸõƒpƒ^[ƒ“‚É‘å•¶š¬•¶š‚ğ‹æ•Ê‚µ‚È‚¢
-set smartcase " ŒŸõƒpƒ^[ƒ“‚É‘å•¶š‚ğŠÜ‚ñ‚Å‚¢‚½‚ç‘å•¶š¬•¶š‚ğ‹æ•Ê‚·‚é
-set hlsearch " ŒŸõŒ‹‰Ê‚ğƒnƒCƒ‰ƒCƒg
+set fileencoding=utf-8 " ä¿å­˜æ™‚ã®æ–‡å­—ã‚³ãƒ¼ãƒ‰
+set fileencodings=ucs-boms,utf-8,euc-jp,cp932 " èª­ã¿è¾¼ã¿æ™‚ã®æ–‡å­—ã‚³ãƒ¼ãƒ‰ã®è‡ªå‹•åˆ¤åˆ¥. å·¦å´ãŒå„ªå…ˆã•ã‚Œã‚‹
+set fileformats=unix,dos,mac " æ”¹è¡Œã‚³ãƒ¼ãƒ‰ã®è‡ªå‹•åˆ¤åˆ¥. å·¦å´ãŒå„ªå…ˆã•ã‚Œã‚‹
+set ambiwidth=double " â–¡ã‚„â—‹æ–‡å­—ãŒå´©ã‚Œã‚‹å•é¡Œã‚’è§£æ±º
+set expandtab " ã‚¿ãƒ–å…¥åŠ›ã‚’è¤‡æ•°ã®ç©ºç™½å…¥åŠ›ã«ç½®ãæ›ãˆã‚‹
+set tabstop=4 " ç”»é¢ä¸Šã§ã‚¿ãƒ–æ–‡å­—ãŒå ã‚ã‚‹å¹…
+set softtabstop=4 " é€£ç¶šã—ãŸç©ºç™½ã«å¯¾ã—ã¦ã‚¿ãƒ–ã‚­ãƒ¼ã‚„ãƒãƒƒã‚¯ã‚¹ãƒšãƒ¼ã‚¹ã‚­ãƒ¼ã§ã‚«ãƒ¼ã‚½ãƒ«ãŒå‹•ãå¹…
+set autoindent " æ”¹è¡Œæ™‚ã«å‰ã®è¡Œã®ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã‚’ç¶™ç¶šã™ã‚‹
+set smartindent " æ”¹è¡Œæ™‚ã«å‰ã®è¡Œã®æ§‹æ–‡ã‚’ãƒã‚§ãƒƒã‚¯ã—æ¬¡ã®è¡Œã®ã‚¤ãƒ³ãƒ‡ãƒ³ãƒˆã‚’å¢—æ¸›ã™ã‚‹
+set shiftwidth=4 " smartindentã§å¢—æ¸›ã™ã‚‹å¹…
+set incsearch " ã‚¤ãƒ³ã‚¯ãƒªãƒ¡ãƒ³ã‚¿ãƒ«ã‚µãƒ¼ãƒ. ï¼‘æ–‡å­—å…¥åŠ›æ¯ã«æ¤œç´¢ã‚’è¡Œã†
+set ignorecase " æ¤œç´¢ãƒ‘ã‚¿ãƒ¼ãƒ³ã«å¤§æ–‡å­—å°æ–‡å­—ã‚’åŒºåˆ¥ã—ãªã„
+set smartcase " æ¤œç´¢ãƒ‘ã‚¿ãƒ¼ãƒ³ã«å¤§æ–‡å­—ã‚’å«ã‚“ã§ã„ãŸã‚‰å¤§æ–‡å­—å°æ–‡å­—ã‚’åŒºåˆ¥ã™ã‚‹
+set hlsearch " æ¤œç´¢çµæœã‚’ãƒã‚¤ãƒ©ã‚¤ãƒˆ
 
-" ESCƒL[2“x‰Ÿ‚µ‚ÅƒnƒCƒ‰ƒCƒg‚ÌØ‚è‘Ö‚¦
+" ESCã‚­ãƒ¼2åº¦æŠ¼ã—ã§ãƒã‚¤ãƒ©ã‚¤ãƒˆã®åˆ‡ã‚Šæ›¿ãˆ
 nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
 
-set whichwrap=b,s,h,l,<,>,[,],~ " ƒJ[ƒ\ƒ‹‚Ì¶‰EˆÚ“®‚Ås––‚©‚çŸ‚Ìs‚Ìs“ª‚Ö‚ÌˆÚ“®‚ª‰Â”\‚É‚È‚é
-set number " s”Ô†‚ğ•\¦
-" set cursorline " ƒJ[ƒ\ƒ‹ƒ‰ƒCƒ“‚ğƒnƒCƒ‰ƒCƒg
+set whichwrap=b,s,h,l,<,>,[,],~ " ã‚«ãƒ¼ã‚½ãƒ«ã®å·¦å³ç§»å‹•ã§è¡Œæœ«ã‹ã‚‰æ¬¡ã®è¡Œã®è¡Œé ­ã¸ã®ç§»å‹•ãŒå¯èƒ½ã«ãªã‚‹
+set number " è¡Œç•ªå·ã‚’è¡¨ç¤º
+" set cursorline " ã‚«ãƒ¼ã‚½ãƒ«ãƒ©ã‚¤ãƒ³ã‚’ãƒã‚¤ãƒ©ã‚¤ãƒˆ
 
-" s‚ªÜ‚è•Ô‚µ•\¦‚³‚ê‚Ä‚¢‚½ê‡As’PˆÊ‚Å‚Í‚È‚­•\¦s’PˆÊ‚ÅƒJ[ƒ\ƒ‹‚ğˆÚ“®‚·‚é
+" è¡ŒãŒæŠ˜ã‚Šè¿”ã—è¡¨ç¤ºã•ã‚Œã¦ã„ãŸå ´åˆã€è¡Œå˜ä½ã§ã¯ãªãè¡¨ç¤ºè¡Œå˜ä½ã§ã‚«ãƒ¼ã‚½ãƒ«ã‚’ç§»å‹•ã™ã‚‹
 nnoremap j gj
 nnoremap k gk
 nnoremap <down> gj
 nnoremap <up> gk
 
-" ƒoƒbƒNƒXƒy[ƒXƒL[‚Ì—LŒø‰»
+" ãƒãƒƒã‚¯ã‚¹ãƒšãƒ¼ã‚¹ã‚­ãƒ¼ã®æœ‰åŠ¹åŒ–
 set backspace=indent,eol,start
 
-set showmatch " Š‡ŒÊ‚Ì‘Î‰ŠÖŒW‚ğˆêu•\¦‚·‚é
-source $VIMRUNTIME/macros/matchit.vim " Vim‚Ìu%v‚ğŠg’£‚·
+set showmatch " æ‹¬å¼§ã®å¯¾å¿œé–¢ä¿‚ã‚’ä¸€ç¬è¡¨ç¤ºã™ã‚‹
+source $VIMRUNTIME/macros/matchit.vim " Vimã®ã€Œ%ã€ã‚’æ‹¡å¼µã™
 
-set wildmenu " ƒRƒ}ƒ“ƒhƒ‚[ƒh‚Ì•âŠ®
-set history=5000 " •Û‘¶‚·‚éƒRƒ}ƒ“ƒh—š—ğ‚Ì”
+set wildmenu " ã‚³ãƒãƒ³ãƒ‰ãƒ¢ãƒ¼ãƒ‰ã®è£œå®Œ
+set history=5000 " ä¿å­˜ã™ã‚‹ã‚³ãƒãƒ³ãƒ‰å±¥æ­´ã®æ•°
 
 if has('mouse')
     set mouse=a
@@ -61,6 +61,81 @@ if &term =~ "xterm"
     inoremap <special> <expr> <Esc>[200~ XTermPasteBegin("")
 endif
 
+" Windowsã®æ™‚
+if &runtimepath !~# '/.vim'
+  set runtimepath+=$HOME/.vim
+endif
+
+
+
+" dein
+" ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ãŒå®Ÿéš›ã«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã•ã‚Œã‚‹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
+let s:dein_dir = expand('~/.vim/dein')
+" dein.vim æœ¬ä½“
+let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
+
+" dein.vim ãŒãªã‘ã‚Œã° github ã‹ã‚‰è½ã¨ã—ã¦ãã‚‹
+if &runtimepath !~# '/dein.vim'
+  if !isdirectory(s:dein_repo_dir)
+    execute '!git clone https://github.com/Shougo/dein.vim' s:dein_repo_dir
+  endif
+endif
+
+execute 'set runtimepath+=' . s:dein_repo_dir
+
+" è¨­å®šé–‹å§‹
+if dein#load_state(s:dein_dir)
+  call dein#begin(s:dein_dir)
+
+  call dein#add(s:dein_repo_dir)
+  call dein#add('Shougo/neomru.vim')
+  call dein#add('Shougo/neosnippet')
+  call dein#add('Shougo/neocomplete')
+  call dein#add('Shougo/neosnippet-snippets')
+  call dein#add('Shougo/unite.vim')
+
+
+  "call dein#add'Shougo/vimproc.vim'
+  ""if   = '''! has('kaoriya')'''
+  ""hook_post_update = '''
+  ""  if dein#util#_is_windows()
+  ""    let cmd = 'tools\\update-dll-mingw'
+  "" elseif dein#util#_is_cygwin()
+  ""    let cmd = 'make -f make_cygwin.mak'
+  ""  elseif executable('gmake')
+  ""    let cmd = 'gmake'
+  ""  else
+  ""    let cmd = 'make'
+  ""  endif
+  "" let g:dein#plugin.build = cmd
+  
+  call dein#add('scrooloose/nerdtree')
+  " ã‚³ãƒ¡ãƒ³ãƒˆON/OFFã‚’æ‰‹è»½ã«å®Ÿè¡Œ
+  call dein#add('tomtom/tcomment_vim')
+  " è‰²
+  call dein#add('tomasr/molokai')
+  " html
+  call dein#add('mattn/emmet-vim')
+  " comment
+  call dein#add('tomtom/tcomment_vim')
+  " sintax
+  call dein#add('scrooloose/syntastic.git')
+  " call dein#add('neomake/neomake')
+  " autocmd! BufWritePost * Neomake "ä¿å­˜æ™‚ã«å®Ÿè¡Œã™ã‚‹
+
+  " git
+  call dein#add('tpope/vim-fugitive')
+  
+  " è¨­å®šçµ‚äº†
+  call dein#end()
+  call dein#save_state()
+endif
+
+" ã‚‚ã—ã€æœªã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã‚‚ã®ã‚‚ã®ãŒã‚ã£ãŸã‚‰ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+if dein#check_install()
+  call dein#install()
+endif
+
 " snippet
 " Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
@@ -77,45 +152,47 @@ imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 " \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 \ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-
 " For conceal markers.
 if has('conceal')
   set conceallevel=2 concealcursor=niv
 endif
 
 
-" deinƒpƒXİ’è
-let s:dein_dir = fnamemodify('~/.vim/dein/', ':p') "<-‚¨D‚«‚ÈêŠ
-let s:dein_repo_dir = s:dein_dir . 'dein' "<-ŒÅ’è
+" http://blog.remora.cx/2010/12/vim-ref-with-unite.html
+""""""""""""""""""""""""""""""
+" Unit.vimã®è¨­å®š
+""""""""""""""""""""""""""""""
+" å…¥åŠ›ãƒ¢ãƒ¼ãƒ‰ã§é–‹å§‹ã™ã‚‹
+" let g:unite_enable_start_insert=1
+" ãƒãƒƒãƒ•ã‚¡ä¸€è¦§
+noremap <C-P> :Unite buffer<CR>
+" ãƒ•ã‚¡ã‚¤ãƒ«ä¸€è¦§
+noremap <C-N> :Unite -buffer-name=file file<CR>
+" æœ€è¿‘ä½¿ã£ãŸãƒ•ã‚¡ã‚¤ãƒ«ã®ä¸€è¦§
+noremap <C-Z> :Unite file_mru<CR>
+" sourcesã‚’ã€Œä»Šé–‹ã„ã¦ã„ã‚‹ãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã€ã¨ã™ã‚‹
+noremap :uff :<C-u>UniteWithBufferDir file -buffer-name=file<CR>
+" ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’åˆ†å‰²ã—ã¦é–‹ã
+au FileType unite nnoremap <silent> <buffer> <expr> <C-J> unite#do_action('split')
+au FileType unite inoremap <silent> <buffer> <expr> <C-J> unite#do_action('split')
+" ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚’ç¸¦ã«åˆ†å‰²ã—ã¦é–‹ã
+au FileType unite nnoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
+au FileType unite inoremap <silent> <buffer> <expr> <C-K> unite#do_action('vsplit')
+""""""""""""""""""""""""""""""
 
-" dein.vim–{‘Ì‚Ì‘¶İƒ`ƒFƒbƒN‚ÆƒCƒ“ƒXƒg[ƒ‹
-if !isdirectory(s:dein_repo_dir)
-    execute '!git clone https://github.com/Shougo/dein.vim' shellescape(s:dein_repo_dir)
-endif
+" fugitive.vim
+" ã‚¹ãƒ†ãƒ¼ã‚¿ã‚¹è¡Œã«ç¾åœ¨ã®gitãƒ–ãƒ©ãƒ³ãƒã‚’è¡¨ç¤ºã™ã‚‹
+set statusline+=%{fugitive#statusline()}
 
-" dein.vim–{‘Ì‚ğƒ‰ƒ“ƒ^ƒCƒ€ƒpƒX‚É’Ç‰Á
-if &runtimepath !~# '/dein.vim'
-    execute 'set runtimepath^=' . s:dein_repo_dir
-endif
+"
+colorscheme molokai
+syntax on
 
-call dein#begin(s:dein_dir)
-
-call dein#add('Shougo/dein.vim')
-
-call dein#add('Shougo/neomru.vim')
-call dein#add('Shougo/neosnippet')
-call dein#add('Shougo/neocomplcache')
-call dein#add('Shougo/neosnippet-snippets')
-
-
-
-" •K{
-call dein#end()
-filetype plugin indent on
-syntax enable
-
-" ƒvƒ‰ƒOƒCƒ“‚ÌƒCƒ“ƒXƒg[ƒ‹
-if dein#check_install()
-  call dein#install()
-endif
-
+" sintastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0

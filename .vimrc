@@ -96,17 +96,15 @@ if dein#load_state(s:dein_dir)
 
 
   if   ! has('kaoriya')
-   call dein#add('Shougo/vimproc.vim')
-    if dein#util#_is_windows()
-      let cmd = 'tools\\update-dll-mingw'
-    elseif dein#util#_is_cygwin()
-      let cmd = 'make -f make_cygwin.mak'
+    if has('win32') || has('win64')
+      call dein#add('Shougo/vimproc.vim',{'build':'tools\\update-dll-mingw'})
+    elseif has('cygwin') 
+      call dein#add('Shougo/vimproc.vim',{'build':'make -f make_cygwin.mak'})
     elseif executable('gmake')
-      let cmd = 'gmake'
+      call dein#add('Shougo/vimproc.vim',{'build':'gmake'})
     else
-      let cmd = 'make'
+      call dein#add('Shougo/vimproc.vim',{'build':'make'})
     endif
-   let g:dein#plugin.build = cmd
   endif
   
   call dein#add('scrooloose/nerdtree')

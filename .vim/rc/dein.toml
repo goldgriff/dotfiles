@@ -47,8 +47,8 @@ repo ='mattn/emmet-vim'
 repo ='tomtom/tcomment_vim'
 
 # sintax
-[[plugins]]
-repo ='scrooloose/syntastic.git'
+#[[plugins]]
+#repo ='scrooloose/syntastic.git'
 
 # git
 [[plugins]]
@@ -68,3 +68,7 @@ if   = '''! has('kaoriya')'''
 [[plugins]]
 repo = 'vim-jp/autofmt'
 if   = '''! has('kaoriya')'''
+
+# linter
+[[plugins]]
+repo = 'w0rp/ale'

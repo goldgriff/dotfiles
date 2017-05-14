@@ -96,7 +96,7 @@ if dein#load_state(s:dein_dir)
 
 
   if   ! has('kaoriya')
-   call dein#add'Shougo/vimproc.vim
+   call dein#add('Shougo/vimproc.vim')
     if dein#util#_is_windows()
       let cmd = 'tools\\update-dll-mingw'
     elseif dein#util#_is_cygwin()
@@ -125,6 +125,9 @@ if dein#load_state(s:dein_dir)
 
   " git
   call dein#add('tpope/vim-fugitive')
+
+  " shell
+  call dein#add('b4b4r07/vim-shellutils')
   
   " 設定終了
   call dein#end()

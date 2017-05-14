@@ -86,46 +86,52 @@ execute 'set runtimepath+=' . s:dein_repo_dir
 " 設定開始
 if dein#load_state(s:dein_dir)
   call dein#begin(s:dein_dir)
-
   call dein#add(s:dein_repo_dir)
-  call dein#add('Shougo/neomru.vim')
-  call dein#add('Shougo/neosnippet')
-  call dein#add('Shougo/neocomplete')
-  call dein#add('Shougo/neosnippet-snippets')
-  call dein#add('Shougo/unite.vim')
 
+  " プラグインリストを収めたTOMLファイル
+  let g:rc_dir = expand('~/.vim/rc')
+  let s:toml   = g:rc_dir . '/dein.toml'
+  let s:lazy_toml = g:rc_dir . '/dein_lazy.toml'
 
-  if   ! has('kaoriya')
-    if has('win32') || has('win64')
-      call dein#add('Shougo/vimproc.vim',{'build':'tools\\update-dll-mingw'})
-    elseif has('cygwin') 
-      call dein#add('Shougo/vimproc.vim',{'build':'make -f make_cygwin.mak'})
-    elseif executable('gmake')
-      call dein#add('Shougo/vimproc.vim',{'build':'gmake'})
-    else
-      call dein#add('Shougo/vimproc.vim',{'build':'make'})
-    endif
-  endif
-  
-  call dein#add('scrooloose/nerdtree')
-  " コメントON/OFFを手軽に実行
-  call dein#add('tomtom/tcomment_vim')
-  " 色
-  call dein#add('tomasr/molokai')
-  " html
-  call dein#add('mattn/emmet-vim')
-  " comment
-  call dein#add('tomtom/tcomment_vim')
-  " sintax
-  call dein#add('scrooloose/syntastic.git')
-  " call dein#add('neomake/neomake')
-  " autocmd! BufWritePost * Neomake "保存時に実行する
+  call dein#load_toml(s:toml,{'lazy':0})
+  call dein#load_toml(s:lazy_toml,{'lazy':1})
 
-  " git
-  call dein#add('tpope/vim-fugitive')
-
-  " shell
-  call dein#add('b4b4r07/vim-shellutils')
+  " call dein#add('Shougo/neomru.vim')
+  " call dein#add('Shougo/neosnippet')
+  " call dein#add('Shougo/neocomplete')
+  " call dein#add('Shougo/neosnippet-snippets')
+  " call dein#add('Shougo/unite.vim')
+  "
+  "
+  " if   ! has('kaoriya')
+  "   if has('win32') || has('win64')
+  "     call dein#add('Shougo/vimproc.vim',{'build':'tools\\update-dll-mingw'})
+  "   elseif has('cygwin') 
+  "     call dein#add('Shougo/vimproc.vim',{'build':'make -f make_cygwin.mak'})
+  "   elseif executable('gmake')
+  "     call dein#add('Shougo/vimproc.vim',{'build':'gmake'})
+  "   else
+  "     call dein#add('Shougo/vimproc.vim',{'build':'make'})
+  "   endif
+  " endif
+  "
+  " call dein#add('scrooloose/nerdtree')
+  " " コメントON/OFFを手軽に実行
+  " call dein#add('tomtom/tcomment_vim')
+  " " 色
+  " call dein#add('tomasr/molokai')
+  " " html
+  " call dein#add('mattn/emmet-vim')
+  " " comment
+  " call dein#add('tomtom/tcomment_vim')
+  " " sintax
+  " call dein#add('scrooloose/syntastic.git')
+  "
+  " " git
+  " call dein#add('tpope/vim-fugitive')
+  "
+  " " shell
+  " call dein#add('b4b4r07/vim-shellutils')
   
   " 設定終了
   call dein#end()

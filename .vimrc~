@@ -61,8 +61,6 @@ if &term =~ "xterm"
     inoremap <special> <expr> <Esc>[200~ XTermPasteBegin("")
 endif
 
-" 日本語
-set formatexpr=autofmt#japanese#formatexpr()
 " Windowsの時
 if &runtimepath !~# '/.vim'
   set runtimepath+=$HOME/.vim

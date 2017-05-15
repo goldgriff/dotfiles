@@ -147,13 +147,13 @@ endif
 " snippet
 " Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
-imap <C-s>     <Plug>(neosnippet_expand_or_jump)
-smap <C-s>     <Plug>(neosnippet_expand_or_jump)
-xmap <C-s>     <Plug>(neosnippet_expand_target)
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
 
 " SuperTab like snippets behavior.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
-imap <C-s>     <Plug>(neosnippet_expand_or_jump)
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
 "imap <expr><TAB>
 " \ pumvisible() ? "\<C-n>" :
 " \ neosnippet#expandable_or_jumpable() ?
@@ -283,5 +283,9 @@ let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 " ale
 set statusline=%{ALEGetStatusLine()}
 let g:ale_statusline_format = ['error %d', 'warning %d', 'o ok']
-nmap <silent> <C-w>j <Plug>(ale_next_wrap)
-nmap <silent> <C-w>k <Plug>(ale_previous_wrap)
+nmap <silent> <C-s>j <Plug>(ale_next_wrap)
+nmap <silent> <C-s>k <Plug>(ale_previous_wrap)
+
+
+" 不可視文字の可視化
+set list 
